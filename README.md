@@ -136,18 +136,3 @@ Las contribuciones son bienvenidas. Para cambios importantes:
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
-## 👨‍💻 Autor
-
-**Malinuuus** - [GitHub](https://github.com/malinuuus)
-
-## 📞 Soporte
-
-Si tienes problemas o sugerencias, por favor abre un issue en el repositorio.
-
----
-
-**¡Espero que disfrutes usando Aplicación de Notas!** 🌟
