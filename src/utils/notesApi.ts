@@ -34,6 +34,7 @@ export const getNotes = async (count: number) => {
       ...note,
       id: note.id.toString(),
       tags: testTags.filter((tag) => tag.id === note.tagId.toString()),
+      tasks: [],
       createdAt: new Date(note.createdAt.date.slice(0, -7).replace(/-/g, '/')),
       updatedAt: new Date(note.updatedAt.date.slice(0, -7).replace(/-/g, '/'))
     }))
