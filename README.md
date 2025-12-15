@@ -2,6 +2,8 @@
 
 Una aplicación moderna y responsiva para tomar notas con tareas integradas, construida con React y Vite.
 
+Ir a la página: https://misnotasapp25.netlify.app/
+
 ## ✨ Características principales
 
 ### 📌 Gestión de notas
