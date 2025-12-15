@@ -1,0 +1,30 @@
+:root{
+    /* Rosa pastel (escala ligera -> más intenso) */
+    --rosa-pastel-50:  #fff7fb; /* casi blanco rosado */
+    --rosa-pastel-100: #ffeef6;
+    --rosa-pastel-200: #ffd6ea;
+    --rosa-pastel-300: #ffb6d6;
+    --rosa-pastel-400: #ff94c2;
+    --rosa-pastel-500: #ff6aa8; /* acento */
+    --rosa-pastel-600: #ff4d93;
+    --rosa-pastel-700: #e43b7b; /* más saturado */
+  
+    /* Tonos crema cálidos */
+    --crema-50:  #fffdf6;
+    --crema-100: #fff9ec;
+    --crema-200: #fff3d9;
+    --crema-300: #ffeed0;
+    --crema-400: #ffe7b8;
+    --crema-500: #ffddb0; /* acento crema */
+    --crema-600: #f3c89a;
+  
+    /* Utilitarios de texto/contraste */
+    --texto-oscuro: #222222;
+    --texto-claro:  #ffffff;
+  
+    /* Gradientes listos para usar */
+    --grad-rosa-crema: linear-gradient(135deg, var(--rosa-pastel-200) 0%, var(--crema-200) 100%);
+    --grad-rosa-suave: linear-gradient(90deg, #fff0f6 0%, #ffd6ea 50%, #ff6aa8 100%);
+    --grad-pastel-ombre: linear-gradient(120deg, var(--rosa-pastel-100) 0%, var(--rosa-pastel-300) 50%, var(--rosa-pastel-500) 100%);
+    --grad-radial-soft: radial-gradient(circle at 20% 20%, rgba(255,218,235,0.60) 0%, rgba(255,245,230,0.60) 60%, transparent 100%);
+  }

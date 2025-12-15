@@ -1,0 +1,53 @@
+@import './colors.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Estilos globales con paleta rosa */
+body {
+  transition: background-color 250ms ease, color 250ms ease;
+  overflow-x: hidden;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Links con estilo rosa */
+a {
+  color: var(--rosa-pastel-500);
+  transition: color 250ms ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--rosa-pastel-700);
+}
+
+/* Responsive font sizes */
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    font-size: 13px;
+  }
+}
